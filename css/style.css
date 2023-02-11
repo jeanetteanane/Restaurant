@@ -64,6 +64,10 @@ nav ul li {
   padding: 1%;
 }
 
+.hover li:hover{
+    border-bottom:2px solid #FF8800;
+  }
+
 .main h1{
   font-size: 60px;
   font-weight: 200;
