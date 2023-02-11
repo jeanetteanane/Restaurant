@@ -1,0 +1,202 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+    font-size:20px;
+    font-family: sans-serif;
+  }
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.main{
+  background-image: url("https://lh6.googleusercontent.com/XpcraeQlECtZI84tRvidX7OjImqoWkboDaKh2TBgx7_pA7JeU92e04l9C0Vy0Fl56jU=w2400");
+  background-size:100%;
+  background-position:top;
+  background-repeat:no-repeat;
+  height: 550px;
+}
+
+header {  
+  color: black;
+  height: 60px;
+}
+
+header img{
+  width: 50px;
+}
+
+nav {
+  width:100%;
+  float:left;
+}
+
+nav img{
+  float:left;
+}
+
+nav ul li {
+  float:right;
+  list-style:none;
+  padding: 1%;
+}
+
+.main h1{
+  font-size: 60px;
+  font-weight: 200;
+  padding-left: 8%;
+  font-family: 'Abril Fatface';
+}
+
+.main form, .main ul{
+  padding-left: 8%;
+}
+
+.search{
+  margin: 0 0 30px 0;
+  border:2px solid lightgray;
+  width: 30%;
+}
+
+.btn, .about-us button{
+  background-color:#FF8800;
+  color:white;
+  border:2px solid #FF8800;
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+.socials{
+    width:33.333%;
+  }
+  
+.socials li{
+    padding-left: 18%;
+    width:33.3333%;
+    float:left;
+    list-style: none;
+    color: #FF8800;
+    font-size: 0.75rem;
+  }
+
+.fb {
+    font-size: 0.6rem;
+  }
+
+.about-us{
+    position:relative;
+    background-image: url("https://cdn.discordapp.com/attachments/976631728758202408/976879000884510851/discover_1.xcf.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:50px 10% 100px 45%;
+    overflow:auto;
+}
+
+.about-us h5{
+  color: #FF8800;
+}
+
+.about-us h2{
+  font-size: 2rem;
+}
+
+.menu {
+  background-color:#f4f7f8;
+}
+
+.menu h5 {
+  color:#FF8800;
+  text-align:center;
+  margin: auto;
+  width:100%;
+}
+
+.menu h2, .booking h2{
+  font-size: 2rem;
+  text-align:center;
+}
+
+.menu ul {
+  width:75%;
+  padding:auto;
+  margin:0 25%;
+  list-style: none;
+}
+
+
+.menu li {
+  width:13%;
+  text-align:center;
+  float:left;
+  margin:auto;
+  border-bottom:2px solid lightgray;
+  margin-bottom: 3%;
+}
+
+.menu li:hover{
+  border-bottom:2px solid #FF8800;
+}
+
+.menu div{
+    width:90%;
+    margin: 10px 5% 0px 5%;
+  }
+
+.menu img {
+    aspect-ratio: 5/7;
+    width:20%;
+    object-fit: cover;
+    margin: 7px 2%;
+  }
+
+
+  .booking {
+    color:#FF8800;
+    text-align:center;
+    display:block;
+    background-image: url("https://images.unsplash.com/photo-1498522271744-cdd435c13f24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1175&q=80");
+    background-size:100%;
+    background-repeat:no-repeat;
+    height: 800px;
+    overflow: auto;
+  }
+  
+  .booking h2, .booking span{
+    color: black;
+    margin: auto;
+  }
+  
+ 
+  
+  
+
+ 
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
